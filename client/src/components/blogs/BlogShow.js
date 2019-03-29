@@ -11,7 +11,7 @@ class BlogShow extends Component {
 
   renderImage() {
     if (this.props.blog.imageUrl) {
-      return <img src={ROOT_URL + this.props.blog.imageUrl} alt="Blog image" />;
+      return <img src={ROOT_URL + this.props.blog.imageUrl} alt="" />;
     }
   }
 
